@@ -1,0 +1,361 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow,noarchive,nosnippet">
+<title>Pre-Call Audit &middot; Keetons Landscaping and Fencing &middot; AG1 Consulting</title><style>
+:root{--bg:#0d1117;--panel:#161b22;--ink:#e6edf3;--mut:#9aa7b4;--line:#2a3340;--accent:#2f81f7;
+  --good:#3fb950;--bad:#f85149;--gradF:#f85149;--gradD:#e8702a;--gradC:#d29922;--gradB:#3fb950;--gradA:#2ea043;}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.5;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+.eyebrow{letter-spacing:.18em;text-transform:uppercase;font-size:12px;color:var(--mut);font-weight:600}
+header{padding:46px 0 28px;border-bottom:1px solid var(--line);background:radial-gradient(1200px 400px at 70% -10%,rgba(47,129,247,.18),transparent)}
+h1{font-size:30px;font-weight:800;margin:10px 0 6px;letter-spacing:-.01em}
+.sub{color:var(--mut);font-size:15px}
+.hero{display:grid;grid-template-columns:300px 1fr;gap:26px;align-items:center;margin:34px 0 8px}
+@media(max-width:760px){.hero{grid-template-columns:1fr}}
+.gradecard{border:1px solid var(--line);border-radius:18px;padding:26px;text-align:center;position:relative;overflow:hidden}
+.gc-F{background:linear-gradient(160deg,#2a1410,#1c2330)}.gc-D{background:linear-gradient(160deg,#2a1c10,#1c2330)}
+.gc-C{background:linear-gradient(160deg,#2a2410,#1c2330)}.gc-B{background:linear-gradient(160deg,#102a1a,#1c2330)}
+.bigletter{font-size:96px;font-weight:900;line-height:1;position:relative}
+.bl-F{color:var(--gradF);text-shadow:0 0 40px rgba(248,81,73,.45)}
+.bl-D{color:var(--gradD);text-shadow:0 0 40px rgba(232,112,42,.45)}
+.bl-C{color:var(--gradC);text-shadow:0 0 40px rgba(210,153,34,.45)}
+.score100{font-size:18px;color:var(--mut);margin-top:6px;position:relative}
+.heroread h2{font-size:21px;font-weight:800;margin-bottom:10px}
+.heroread p{color:var(--mut);font-size:15.5px}
+.heroread .tag{display:inline-block;margin-top:14px;padding:6px 12px;border:1px solid var(--line);border-radius:999px;font-size:13px;color:var(--ink);background:var(--panel)}
+section{padding:34px 0;border-bottom:1px solid var(--line)}
+.h{font-size:13px;color:var(--mut);text-transform:uppercase;letter-spacing:.14em;font-weight:700;margin-bottom:18px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media(max-width:760px){.grid{grid-template-columns:1fr}}
+.row{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center}
+.rname{font-weight:600;font-size:15px}
+.bar{height:7px;background:#0b0f15;border-radius:99px;margin-top:9px;overflow:hidden}
+.fill{height:100%;border-radius:99px}
+.badge{font-weight:800;font-size:15px;min-width:46px;height:46px;border-radius:10px;display:flex;align-items:center;justify-content:center;color:#0d1117}
+.gF{background:var(--gradF)}.gD{background:var(--gradD)}.gC{background:var(--gradC)}.gB{background:var(--gradB);color:#06210f}.gA{background:var(--gradA);color:#06210f}
+.sc{font-size:12px;color:var(--mut);margin-top:3px}
+.flag{background:linear-gradient(160deg,#2a1410,#161b22);border:1px solid #6f2a1f;border-radius:14px;padding:20px 22px;margin-bottom:14px}
+.flag .lab{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:var(--bad);font-weight:700;margin-bottom:8px}
+.win{background:linear-gradient(160deg,#0f2417,#161b22);border:1px solid #1f6f3a;border-radius:14px;padding:20px 22px;margin-bottom:14px}
+.win .lab{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:var(--good);font-weight:700;margin-bottom:8px}
+.warn{background:linear-gradient(160deg,#2a2410,#161b22);border:1px solid #6f5a1f;border-radius:14px;padding:20px 22px;margin-bottom:14px}
+.warn .lab{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:var(--gradC);font-weight:700;margin-bottom:8px}
+.flag p,.win p,.warn p{color:var(--mut);font-size:14.5px;margin-bottom:9px}
+.flag p:last-child,.win p:last-child,.warn p:last-child{margin-bottom:0}
+.flag b,.win b,.warn b{color:var(--ink)}
+.flag ul,.win ul,.warn ul{margin:0 0 9px 20px;color:var(--mut);font-size:14.5px}
+.flag li,.win li,.warn li{margin-bottom:6px}
+.code{background:#0b0f15;border:1px solid var(--line);border-radius:8px;padding:14px 16px;margin:12px 0;font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:12.5px;line-height:1.85;color:var(--mut);overflow-x:auto}
+.code .ph{color:#ff9d94;font-weight:700}.code .ok{color:#84e0a8;font-weight:700}.code .c{color:#5b6672}
+.cmp{width:100%;border-collapse:collapse;font-size:14px;background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.cmp th{text-align:left;padding:11px 14px;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--mut);border-bottom:1px solid var(--line);font-weight:700}
+.cmp td{padding:11px 14px;border-bottom:1px solid var(--line);color:var(--mut);vertical-align:top}
+.cmp tr:last-child td{border-bottom:none}.cmp td b{color:var(--ink)}.cmp tr.you td{background:#241a12}
+.cmp .yes{color:var(--good);font-weight:700}.cmp .no{color:var(--bad);font-weight:700}
+.opp{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+@media(max-width:760px){.opp{grid-template-columns:1fr}}
+.ocard{background:linear-gradient(160deg,#0f2417,#161b22);border:1px solid #1f6f3a;border-radius:14px;padding:20px;text-align:center}
+.ocard .lab{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:var(--mut)}
+.ocard .big{font-size:30px;font-weight:900;color:var(--good);margin:8px 0 2px}
+.ocard .small{font-size:13px;color:var(--mut)}
+.oppnote{color:var(--mut);font-size:14px;margin-top:14px}.oppnote b{color:var(--ink)}
+.arrow{display:flex;align-items:center;justify-content:center;gap:18px;margin:6px 0 2px;flex-wrap:wrap}
+.pill{font-size:60px;font-weight:900;line-height:1}
+.pill.from-F{color:var(--gradF)}.pill.from-D{color:var(--gradD)}.pill.from-C{color:var(--gradC)}
+.pill.to{color:var(--gradA)}
+.pilllab{font-size:12px;color:var(--mut);text-align:center;text-transform:uppercase;letter-spacing:.1em}
+.ar{font-size:34px;color:var(--mut)}
+ul.road{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media(max-width:760px){ul.road{grid-template-columns:1fr}}
+ul.road li{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:8px;padding:11px 14px;font-size:14.5px}
+.road2 li{border-left-color:var(--good)}
+.cta{text-align:center;padding:40px 0 56px}
+.cta h2{font-size:22px;font-weight:800;margin-bottom:8px}
+.cta p{color:var(--mut);font-size:15px}
+footer{color:var(--mut);font-size:12.5px;text-align:center;padding:22px 0 40px;line-height:1.7}
+.gscale{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:26px 26px 20px;margin-top:16px}
+.gscale .gtitle{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:var(--mut);font-weight:700;margin-bottom:26px;text-align:center}
+.gtrack{position:relative;height:14px;border-radius:8px;background:linear-gradient(90deg,#f85149 0%,#f85149 18%,#e3833c 34%,#d4a72c 52%,#7ec46a 74%,#3fb950 100%);margin:0 4px}
+.gmark{position:absolute;top:-46px;transform:translateX(-50%);text-align:center;white-space:nowrap}
+.gmark .gm-lab{font-size:10.5px;text-transform:uppercase;letter-spacing:.1em;color:var(--mut);font-weight:700}
+.gmark .gm-val{font-size:19px;font-weight:900;line-height:1.15}
+.gmark:after{content:"";position:absolute;left:50%;top:100%;width:2px;height:22px;transform:translateX(-50%);background:currentColor;opacity:.75}
+.gmark.now{color:var(--bad)}.gmark.now .gm-val{color:var(--bad)}
+.gmark.proj{color:var(--good)}.gmark.proj .gm-val{color:var(--good)}
+.gmark.proj{top:auto;bottom:-52px}
+.gmark.proj:after{top:auto;bottom:100%}
+.gdot{position:absolute;top:50%;width:16px;height:16px;border-radius:50%;transform:translate(-50%,-50%);border:3px solid #0d1117}
+.gdot.now{background:var(--bad)}.gdot.proj{background:var(--good)}
+.gticks{display:flex;justify-content:space-between;margin:66px 4px 0;font-size:11px;letter-spacing:.08em;color:var(--mut);font-weight:700}
+@media(max-width:620px){.gmark .gm-lab{font-size:9px}.gmark .gm-val{font-size:16px}}
+
+/* ---------- injected asset nav ---------- */
+/* display/padding/margin are declared explicitly so a page carrying its own bare
+   nav{} element rule (concept mockups do) cannot restyle the AG1 bar. */
+.agnav{display:block;padding:0;margin:0;position:sticky;top:0;z-index:80;background:rgba(13,17,23,.92);backdrop-filter:saturate(1.5) blur(10px);border-bottom:1px solid var(--line)}
+.agnav .inner{max-width:1080px;margin:0 auto;padding:0 22px;display:flex;flex-wrap:wrap;align-items:center;gap:6px}
+.agnav a{display:inline-block;padding:12px 14px;font-size:14px;font-weight:600;color:var(--mut);text-decoration:none;border-bottom:2px solid transparent;transition:color .15s,border-color .15s}
+.agnav a:hover{color:var(--ink);border-bottom-color:var(--accent)}
+.agnav a.on{color:var(--ink);border-bottom-color:var(--accent)}
+.agnav a.ext{color:var(--accent)}
+.agnav a.ext:hover{color:#fff}
+@media(max-width:560px){.agnav .inner{padding:0 14px}.agnav a{padding:10px 9px;font-size:13px}}
+</style></head><body>
+<nav class="agnav"><div class="inner"><a href="./" class="on">Pre-Call Audit</a><a href="positioning.html">Positioning</a><a href="plan.html">Plan of Action</a></div></nav>
+<header>
+  <div class="wrap">
+    <div class="eyebrow">Pre-Call Audit &middot; Keetons Landscaping and Fencing</div>
+    <h1>Your Biggest Job Was &pound;25,000. Your Website Is Selling Garden Maintenance.</h1>
+    <div class="sub">Prepared for Thornley Keeton &middot; 5 October 2026 &middot; AG1 Consulting</div>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <div class="h">What You Told Our Team</div>
+    <div class="warn">
+      <div class="lab">The brief, as it reached us</div>
+      <ul>
+        <li>Your own fencing and landscaping company, <b>in business since October</b>.</li>
+        <li><b>Booked out for the last six months</b> on referrals and word of mouth.</li>
+        <li><b>One to three clients a week</b>, varying, because some jobs take far longer than others.</li>
+        <li>⭐ <b>Biggest recent job: &pound;25,000.</b></li>
+        <li><b>Never advertised</b>, because you have been too busy.</li>
+        <li><b>Books are now running thin</b> and you want work booked in as soon as possible.</li>
+      </ul>
+      <p>⭐ <b>Of the businesses we have looked at this week, you are the only one whose problem genuinely is that
+      you need more work.</b> The others told us they could not resource what they already had. So this is a
+      straightforward conversation and we think we can help.</p>
+      <p>⛔ <b>But we are not going to start advertising on Monday, and the two sections below explain why
+      that would waste your money rather than earn it.</b></p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="h">🔴 Finding One: Your Website Would Buy You The Wrong Customers</div>
+    <div class="flag">
+      <div class="lab">🔴🔴 There are two businesses described on your site, and the money is only in one of them</div>
+      <p>Here is what your own homepage says, word for word:</p>
+      <ul>
+        <li><i>&ldquo;your trusted partner for <b>comprehensive garden maintenance</b> and outdoor
+        solutions&rdquo;</i></li>
+        <li><i>&ldquo;Transforming your space, <b>regardless of size or budget</b>&rdquo;</i></li>
+        <li><i>&ldquo;We believe <b>everyone</b> deserves to enjoy nature and the outdoors&rdquo;</i></li>
+        <li><i>&ldquo;no matter the size of your garden <b>or budget</b>&rdquo;</i></li>
+        <li><i>&ldquo;especially for those who find the <b>physical aspect of gardening challenging</b>&rdquo;</i></li>
+        <li>Your first service heading: <i>&ldquo;<b>Garden transformations</b> &mdash; Comprehensive garden
+        maintenance services to keep your green space thriving&rdquo;</i></li>
+      </ul>
+      <p>⚠️ <b>And your email address is keetonsgardens@gmail.com.</b></p>
+      <p>🔴 <b>Read as a customer would read it, that is a garden maintenance business aimed at people who want
+      help with jobs they can no longer manage, at any budget.</b> It is warm, it is decent, and it is nothing like
+      a company that builds &pound;25,000 landscaping schemes.</p>
+      <p>🔴🔴 <b>Now consider what happens if we advertise that site.</b> Advertising is extremely good at
+      producing more of whatever you are already asking for. <b>So we would spend your money filling your diary
+      with fence repairs, bits of turf and tidy-ups</b> &mdash; low value, high admin, and exactly the work that
+      occupies a week without paying for one.</p>
+      <p>⭐ <b>Your books would fill. That is the danger, not the reassurance.</b> You would be busy, poorer, and
+      convinced advertising does not work. <a href="positioning.html" style="color:var(--accent)">The positioning
+      page</a> deals with this properly, because it is the single most important thing we have to say to you.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="h">⚠️ Finding Two: Your Books May Be Thin Because It Is October</div>
+    <div class="flag">
+      <div class="lab">⚠️ Worth establishing before you spend a penny</div>
+      <p>You were booked out for six months and are now thin. ⭐ <b>Those six months were roughly April to
+      September. The thin period starts in October.</b></p>
+      <p>⚠️ <b>That is the shape of almost every landscaping business in the north east</b>, and it may mean you
+      do not have a demand problem at all &mdash; you have a <b>seasonal</b> one. Homeowners commission gardens in
+      spring, they stop thinking about them when the clocks go back, and they start again in February.</p>
+      <p>🔴 <b>This matters enormously for what you should do with your money.</b></p>
+      <ul>
+        <li><b>If it is seasonal:</b> advertising hard in November and December buys the least interested
+        audience of the year at full price. ⛔ <b>The wrong month is an expensive way to learn this.</b> The right
+        move is to spend the quiet period getting the foundations right and <b>be ready and visible before the
+        spring enquiries start, not after.</b></li>
+        <li><b>If it is not seasonal</b> &mdash; if your referrals have genuinely dried up for other reasons
+        &mdash; then it is urgent and we should act now.</li>
+      </ul>
+      <p>⚠️ <b>You have only been trading since October last year, so you have had one season.</b> That is not
+      enough history to know which of the two it is, and neither of us should assume. ⭐ <b>But there is work that
+      is far less seasonal than planting</b> &mdash; fencing, decking, paving, drainage and privacy screens all
+      hold up through winter, and three of those are already on your list. <b>That is the winter offer, and it is a
+      much better use of November than a general campaign.</b></p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="h">What Is Genuinely Good</div>
+    <div class="win">
+      <div class="lab">⭐ Credit where it is due</div>
+      <ul>
+        <li>⭐⭐ <b>Booked solid for six months on nothing but word of mouth, in your first year.</b> That is the
+        single most impressive fact in this document. <b>It means the work is good and people recommend you</b>
+        &mdash; which is the hard part, and it cannot be bought.</li>
+        <li>⭐ <b>A &pound;25,000 job inside your first year.</b> That tells us there is real money in what you do,
+        and it is the number everything else should be built around.</li>
+        <li><b>You have a Completed Jobs page and a Customer Reviews page.</b> Most firms your age have
+        neither.</li>
+        <li><b>A clear, wide service list</b> &mdash; fencing, raised beds, grass, ramps, paving, decking, water
+        features, sleeper borders, pergolas, planters, privacy screens.</li>
+        <li><b>A working contact form</b> with consent wording on it.</li>
+        <li><b>A landline as well as a mobile</b> &mdash; 0191 and 07922. ⭐ Most sole operators have only a
+        mobile, and a local landline reads as more established.</li>
+        <li>⭐ <b>You have never advertised, which means nothing is wasted and nothing is broken.</b> Everything
+        from here is upside, and there are no bad habits to undo.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="h">The Rest Of The Problems</div>
+
+    <div class="flag">
+      <div class="lab">🔴 1. No measurement of any kind</div>
+      <p><b>No Google Analytics, no Tag Manager, no advertising tag, no pixel.</b> Nothing.</p>
+      <p>⛔ <b>This is not optional if you are about to advertise.</b> Spending money on traffic you cannot measure
+      means that in three months you will not know whether it worked, which enquiries came from where, or what a
+      customer cost you. <b>It goes on before the first pound of spend, not after.</b></p>
+    </div>
+
+    <div class="flag" style="margin-top:16px">
+      <div class="lab">🔴 2. Neither of your phone numbers is clickable</div>
+      <p>Both numbers appear as text only. <b>There is not a single tap-to-call link on the site.</b></p>
+      <p>⚠️ <b>Most people will see your site on a phone.</b> Right now they have to memorise or copy a number to
+      ring you. <b>For an advertising campaign this is close to fatal</b> &mdash; a large share of the people who
+      want to call you simply will not.</p>
+      <p>⭐ It is a few minutes of work and it is the highest-return fix on this page.</p>
+    </div>
+
+    <div class="flag" style="margin-top:16px">
+      <div class="lab">🔴 3. Nothing about insurance, guarantees or accreditation</div>
+      <p>We found no mention of <b>public liability insurance</b>, any <b>guarantee or warranty</b>, or any scheme
+      such as <b>Checkatrade</b>, <b>TrustATrader</b> or <b>TrustMark</b>.</p>
+      <p>🔴 <b>Set that against a &pound;25,000 job.</b> A homeowner handing over that sum to a company
+      incorporated eleven months ago is taking a visible risk, and your website currently gives them nothing to
+      hold on to. <b>Referred customers do not need it because somebody vouched for you. A stranger from an
+      advert needs it badly.</b></p>
+      <p>⭐ <b>If you already carry insurance and offer any guarantee, putting both on the site is a ten minute job
+      and it is worth more than the first month of advertising.</b></p>
+    </div>
+
+    <div class="flag" style="margin-top:16px">
+      <div class="lab">⚠️ 4. A Gmail address on a company that owns its own domain</div>
+      <p>You own <b>keetonslandscapingandfencing.co.uk</b> and take enquiries at
+      <b>keetonsgardens@gmail.com</b>.</p>
+      <p>⚠️ Two problems, and the second is the real one: it reads as smaller than you are, and <b>the word in it
+      is &ldquo;gardens&rdquo;</b>, which reinforces exactly the maintenance positioning that is costing you.</p>
+    </div>
+
+    <div class="flag" style="margin-top:16px">
+      <div class="lab">⚠️ 5. Your sitemap declares one page</div>
+      <p>Your navigation offers six &mdash; home, about, contact, legal notice, completed jobs and customer
+      reviews. <b>Your sitemap tells Google about one.</b> Your completed jobs and your reviews are the two most
+      persuasive things you own, and nothing is pointing search engines at either.</p>
+    </div>
+
+    <div class="flag" style="margin-top:16px">
+      <div class="lab">⚠️ 6. Six hundred and fifty-nine words, and no job is described</div>
+      <p>The homepage is short, and the Completed Jobs page exists but <b>there is no written account of a single
+      project</b> &mdash; what the garden was like, what you built, roughly what it cost, how long it took.</p>
+      <p>⭐ <b>You have a &pound;25,000 job. Written up properly, with photographs, that one page would do more to
+      win you another &pound;25,000 job than any advert we could write.</b></p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="h">What We Could Not Verify</div>
+    <div class="flag">
+      <div class="lab">Said plainly</div>
+      <ul>
+        <li><b>Your typical job value.</b> We know the biggest was &pound;25,000. ⭐ <b>We have no idea what the
+        average is, and on your service list it could be anything from a few hundred pounds upward.</b> This is the
+        first question on Monday.</li>
+        <li><b>Whether you carry public liability insurance</b> or offer any guarantee. Neither appears on the
+        site.</li>
+        <li><b>Whether the thin books are seasonal.</b> You have had one season, so there is no pattern to read
+        yet.</li>
+        <li><b>Whether you work alone or have anybody with you.</b> The site says &ldquo;we&rdquo; throughout but
+        names nobody and shows no team.</li>
+        <li><b>How much of your work is construction</b> &mdash; fencing, paving, decking &mdash; <b>versus
+        maintenance.</b> The site presents them as one business and they are not.</li>
+        <li><b>The &ldquo;over 15 years of experience&rdquo;</b> on your site. ⭐ We read that as your own
+        experience in the trade rather than the company's age, which is normal and fine &mdash; we simply have not
+        verified it.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="h">What We Would Want To Ask On Monday</div>
+    <ul class="road road2">
+      <li><b>1. What is an average job worth?</b> ⭐ Not the biggest. The typical one. Everything depends on this.</li>
+      <li><b>2. What is the smallest job you will take?</b> And would you rather never do them again?</li>
+      <li><b>3. Of this year's work, how much was construction and how much was maintenance?</b></li>
+      <li><b>4. Was last winter quiet too?</b> ⚠️ Even one data point helps, and it decides whether we spend now or build now and spend in February.</li>
+      <li><b>5. Do you work alone?</b> It sets the ceiling on what more work would even mean.</li>
+      <li><b>6. Are you insured, and do you guarantee your work?</b> If yes, it is missing from your site.</li>
+      <li><b>7. Can you send us photographs of the &pound;25,000 job?</b> ⭐ Before and after. It is the most valuable marketing asset you own and it is not on your website.</li>
+    </ul>
+    <div class="oppnote" style="margin-top:14px">
+      <b>Question one changes everything else.</b> ⭐ If your average job is &pound;6,000 we have a very good
+      business to advertise. If it is &pound;900, we would be telling you to fix the positioning first and sell you
+      nothing on Monday.
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="wrap">
+    <h2>Booked solid for six months in your first year, on word of mouth alone.</h2>
+    <p>The work is clearly good. The website is selling the wrong half of it.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    Prepared by Andrei Givero &middot; AG1 Consulting &middot; 5 October 2026, for discussion with Thornley Keeton at
+    Keetons Landscaping and Fencing. <b>This is a discussion document, not a proposal or a statement of work, and
+    nothing on it is priced.</b>
+    <b>&#9888; All website findings &mdash; the absence of analytics and advertising tags, the absence of any
+    tap-to-call link, the sitemap contents, the navigation structure, the word count, the published telephone
+    numbers and email address, and the absence of any mention of insurance, guarantee or trade accreditation &mdash;
+    were established by automated and manual read of keetonslandscapingandfencing.co.uk on 2 October 2026 and
+    describe that site as it stood on that date.</b>
+    <b>&#9888; Every passage shown in quotation marks is QUOTED VERBATIM FROM THAT WEBSITE, including the references
+    to garden maintenance, to any budget, and to customers who find gardening physically challenging. The
+    &ldquo;over 15 years of experience&rdquo; claim is quoted from the website and has NOT been verified; AG1 reads
+    it as personal experience rather than company age and makes no criticism of it.</b>
+    <b>&#9888; The incorporation date of 20 October 2025 is taken from the public Companies House record for
+    KEETONSLANDSCAPINGANDFENCING LTD, company number 16795311, as read on 2 October 2026. AG1 draws NO adverse
+    inference from the company's age and makes no criticism of it.</b>
+    <b>&#9888; The statements that the business has been trading since October, was booked out for six months, takes
+    one to three clients a week, has never advertised, has a recent largest job of &pound;25,000 and now has thin
+    books are ALL as recorded by AG1's team from a booking call on 1 October 2026. They are reported, NOT verified,
+    and AG1 has seen no financial record, no accounts and no customer list.</b>
+    <b>&#9888; THE SEASONALITY DISCUSSION IS AG1'S GENERAL COMMENTARY ON LANDSCAPING AND OUTDOOR TRADES, NOT A
+    FINDING ABOUT KEETONS AND NOT RESEARCH. AG1 has conducted no seasonal analysis, holds no demand data for the
+    north east, and states explicitly above that with one season of trading there is no pattern to read. Whether
+    Keetons' quiet period is seasonal is unknown to AG1.</b>
+    <b>&#9888; AG1 has made NO finding about whether Keetons holds public liability insurance, offers any guarantee,
+    or belongs to any trade scheme. The absence of these from a website is NOT evidence that they do not exist.</b>
+    <b>&#9888; No enquiry volume, cost per enquiry, job value, ranking position, conversion rate, number of jobs or
+    revenue outcome is forecast, promised or implied anywhere on this page.</b>
+  </div>
+</footer>
+</body></html>
